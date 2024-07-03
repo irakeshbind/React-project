@@ -1,0 +1,111 @@
+/* navbar start */
+/* .main.container{
+   max-width: 1280;
+   margin: 0  auto;
+   background-color: red;
+} */
+.container{
+   
+}
+body{
+   font-family: "Poppins", sans-serif;
+   font-weight: 100;
+   font-style: normal;
+}
+nav{
+   display: flex;
+   justify-content: space-around;
+  
+   height: 72px;
+   align-items: center;
+}
+ul{
+   display:flex;
+   align-items: center;
+   gap: 40px;
+}
+ul li{
+   list-style: none;
+}
+ul li a{
+   font-size: 20px;
+   text-decoration: none;
+   color: gray;
+   font-weight: 800;
+}
+.btn{
+   padding: 6px 16px;
+   background-color: red;
+   color: white;
+}
+ 
+
+/* this is navbar end */
+/* middle  start*/
+.main{
+   display: flex;
+   align-items: center;
+   margin: 0 auto;
+   justify-content: space-around;
+   
+}
+
+
+img{
+   width: 500px;
+   height: 500px;
+}
+.main-text{
+   max-width: 370px;
+   flex: flex;
+   flex-direction: column;
+}
+.main-text h1{
+   font-size: 44px;
+   font-weight: 900;
+}
+.main-text p{
+   color: gray;
+   font-size: 18px;
+   
+}
+.btn{
+   margin-right: 20px;
+   border: none;
+   font-size: 15px;
+   border-radius: 6px;
+}
+.link-image .mm{
+   width: 44px;
+   height: 44px;
+  padding: 10px;
+   
+}
+
+/* middle end */
+
+.heading{
+   text-align: center;
+   gap: 44px;
+}
+.card{
+   width: 300px;
+   height: 350px;
+   padding: 11px;
+   border-radius: 6px;
+   box-shadow: 0px 2px 2px 4px rgb(222,220,220);
+   text-align: center;
+   margin-top: 22px;
+}
+.card img{
+   width: 100%;
+   height: 280px;
+   
+   
+}
+.cardComp{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 66px;
+}
